@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping site in India: Shop online for mobile, Books, Watches,...</title>
+    <link rel="icon" href = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1vPGKElPCbRLReJLXxFSYxClWjIXRR409-A&s" style = "border-radius:2rem;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="h-top-l">
+                <div class="logo">
+                    <img src="https://static.toiimg.com/thumb/msid-53538276,width-1280,height-720,imgsize-4638,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg">
+                </div>
+                <div class="loc" style="padding-top: 0.5rem;">
+                    <span class="heading1">Delivering to Delhi</span>
+                    <br>
+                    <span class="heading2"><i class="fa-solid fa-location-dot"></i>   Update location</span>
+                </div>
+            </div>
+            <div class="h-top-c">
+                <div class="search">
+                    <input type="text" placeholder="Search Amazon.in" id="search-box">
+                </div>
+            </div>
+            <div class="h-top-r">
+                <div class="lang">
+                    <img src="data:image/png;base64,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"><span>EN</span><i class="fa-solid fa-sort-down"></i>
+                </div>
+                <div class="sign">
+                    <span class="heading1">Hello, sign in</span>
+                    <br>
+                    <span class="heading2">Accounts & Lists</span>
+                </div>
+                <div class="rno">
+                    <span class="heading1">Returns</span>
+                    <br>
+                    <span class="heading2">& Orders</span>
+                </div>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i><span>Cart</span>
+                </div>
+            </div>   
+        </div>
+        <div class="header-bottom">
+            <div class="hoption"><i class="fa-solid fa-bars"></i> All</div>
+            <div class="hoption">Fresh</div>
+            <div class="hoption">Amazon miniTV</div>
+            <div class="hoption">Sell</div>
+            <div class="hoption">Best Sellers</div>
+            <div class="hoption">Mobiles</div>
+            <div class="hoption">Today's Deals</div>
+            <div class="hoption">Customer Service</div>
+            <div class="hoption">Prime</div>
+            <div class="hoption">Electronics</div>
+            <div class="hoption">Fashion</div>
+            <div class="hoption">New Releases</div>
+            <div class="hoption">Home & Kitchen</div>
+            <div class="hoption">Amazon Pay</div>
+            <div class="hoption">Computers</div>
+            <div class="hoption">Car & Motorbike</div>
+            <div class="hoption">Books</div>
+            <div class="hoption">Gift Ideas</div>
+            <div class="hoption">Beauty & Personal Care</div>
+            <div class="hoption">Home Improvement</div>
+            <div class="hoption">Pet Supplies</div>
+            <div class="hoption">Toys & Games</div>
+            <div class="hoption">Grocery & Gourmet Foods</div>         
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+            <div class="row">
+                <div class="content">
+                    <h2>Under ₹499 | Pocket-friendly fashion</h2>
+                    <div class="row1">
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC-PFF/PFF-1-186-116._SY116_CB636055991_.jpg">
+                            <div>Clothing</div> 
+                        </div>
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC-PFF/PFF-3-186-116._SY116_CB636055991_.jpg">
+                            <div>Backpacks</div>
+                        </div>                    
+                    </div>
+                    <div class="row2">
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC-PFF/PFF-2-186-116._SY116_CB636055991_.jpg">
+                            <div>Footwears</div>
+                        </div>
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC-PFF/PFF-4-186-116._SY116_CB636055991_.jpg">
+                            <div>View All</div>
+                        </div>  
+                    </div>
+                    <div><a href="#">See all Offers</a></div>
+                </div> 
+                <div class="content">
+                    <h2>Appliances for your home | Up to 55% off</h2>
+                    <div class="row1">
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg">
+                            <div>Air conditioners</div> 
+                        </div>
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg">
+                            <div>Refrigerators</div>
+                        </div>                    
+                    </div>
+                    <div class="row2">
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg">
+                            <div>Microwaves</div>
+                        </div>
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg">
+                            <div>Washing Machines</div>
+                        </div>  
+                    </div>
+                    <div><a href="#">See more</a></div>
+                </div>
+                <div class="content">
+                    <h2>Starting ₹149 | Headphones</h2>
+                    <div class="row1">
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg">
+                            <div>Starting ₹249 | boAt</div> 
+                        </div>
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg">
+                            <div>Starting ₹349 | boult</div>
+                        </div>                    
+                    </div>
+                    <div class="row2">
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg">
+                            <div>Starting ₹649 | Noise</div>
+                        </div>
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/MSO/PD3/PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg">
+                            <div>Starting ₹149 | Zebronics</div>
+                        </div>  
+                    </div>
+                    <div><a href="#">See all Offers</a></div>
+                </div>
+                <div class="content">
+                    <h2>Up to 60% off | Styles for women</h2>
+                    <div class="row1">
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF1-186-116._SY116_CB636048992_.jpg">
+                            <div>Women's Clothing</div> 
+                        </div>
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF2-186-116._SY116_CB636048992_.jpg">
+                            <div>Footwear & Handbags</div>
+                        </div>                    
+                    </div>
+                    <div class="row2">
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF4-186-116._SY116_CB636048992_.jpg">
+                            <div>Watches</div>
+                        </div>
+                        <div class="item">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF3-186-116._SY116_CB636048992_.jpg">
+                            <div>Fashion Jewellery</div>
+                        </div>
+                    </div>
+                    <div><a href="#">End of season sale</a></div>
+                </div>
+            </div>
+            <div class="small-row">
+                <h2>Shop by Brand</h2>
+                <div class="small-row-item">
+                    <img src="https://m.media-amazon.com/images/G/31/img23/BAU-Nov/Laptops_ELP/Collapsable_Halo_Dell._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img23/BAU-Nov/Laptops_ELP/Collapsable_Halo_HP._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img23/BAU-Nov/Laptops_ELP/Collapsable_Halo_Apple._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img23/BAU-Nov/Laptops_ELP/Collapsable_Halo_Acer._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img23/BAU-Nov/Laptops_ELP/Collapsable_Halo_Lenovo._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img23/BAU-Nov/Laptops_ELP/Collapsable_Halo_Samsung._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img23/BAU-Nov/Laptops_ELP/Collapsable_Halo_Asus._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img23/BAU-Nov/Laptops_ELP/Collapsable_Halo_Honor._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img23/BAU-Nov/Laptops_ELP/Collapsable_Halo_Asus._SS300_QL85_FMpng_.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="laptop">
+                    <div class="laptop-image"><img src="https://m.media-amazon.com/images/I/618d5bS2lUL._AC_UL320_.jpg"></div>  
+                    <div class="laptop-detail">
+                        <h2>Apple 2023 MacBook Pro (16-inch, M3 Max chip with 16‑core CPU and 40‑core GPU, 48GB Unified Memory, 1TB) - Space Black</h2>
+                        <h1>₹3,79,990 </h1>
+                        <button>Add to Cart</button>
+                    </div>               
+                </div>
+                <div class="laptop">
+                    <div class="laptop-image"><img src="https://m.media-amazon.com/images/I/71jG+e7roXL._AC_UL320_.jpg"></div>  
+                    <div class="laptop-detail">
+                        <h2>Apple MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard</h2>
+                        <h1>₹71,990</h1>
+                        <button>Add to Cart</button>
+                    </div>               
+                </div>
+                <div class="laptop">
+                    <div class="laptop-image"><img src="https://m.media-amazon.com/images/I/71eXNIDUGjL._AC_UL320_.jpg"></div>  
+                    <div class="laptop-detail">
+                        <h2>Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard</h2>
+                        <h1>₹93,990 </h1>
+                        <button>Add to Cart</button>
+                    </div>               
+                </div>
+                <div class="laptop">
+                    <div class="laptop-image"><img src="https://m.media-amazon.com/images/I/71f5Eu5lJSL._AC_UL320_.jpg"></div>  
+                    <div class="laptop-detail">
+                        <h2>Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard</h2>
+                        <h1>₹93,990 </h1>
+                        <button>Add to Cart</button>
+                    </div>               
+                </div>
+            </div>           
+            <div class="small-row">
+                <h2>Explore Top Tablet Brands</h2>
+                <div class="small-row-item">
+                    <img src="https://m.media-amazon.com/images/G/31/img22/tab/bau/elp/1._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img22/tab/bau/elp/4._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img22/tab/bau/elp/2._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img22/tab/bau/elp/8._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img22/tab/bau/elp/5._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img22/tab/bau/elp/6._SS300_QL85_FMpng_.png">
+                </div>
+            </div>
+            <div class="tablet">
+                <h2>Up to 40% Off: Deals on tablets</h2>
+                <img src="https://m.media-amazon.com/images/G/31/img24/CEPC/Tablet/ELP/1._CB561283619_.png" class="tablet-image">
+                <img src="https://m.media-amazon.com/images/G/31/img24/CEPC/Tablet/ELP/2._CB561283619_.png" class="tablet-image">
+                <img src="https://m.media-amazon.com/images/G/31/img24/Tablet/ELP/3._CB582509741_.jpg" class="tablet-image">
+                <img src="https://m.media-amazon.com/images/G/31/img24/CEPC/Tablet/ELP/4._CB561283619_.png" class="tablet-image">
+                <img src="https://m.media-amazon.com/images/G/31/img24/CEPC/Tablet/ELP/5._CB561283619_.png" class="tablet-image">
+            </div>
+            <div class="small-row">
+                <h2>Explore Top Audio Brands</h2>
+                <div class="small-row-item">
+                    <img src="https://m.media-amazon.com/images/G/31/img24hp/shopbybrand/new/boat._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img24hp/13th/mar/boult._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img24hp/shopbybrand/new/BOSE._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img21/gamex/Noise_logo_300x300._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img24hp/shopbybrand/new/sony._SS300_QL85_FMpng_.png">
+                    <img src="https://m.media-amazon.com/images/G/31/img24hp/shopbybrand/new/JBL._SS300_QL85_FMpng_.png">
+                </div>
+            </div>
+            <div class="tablet">
+                <h2>Up to 40% Off: Deals on tablets</h2>
+                <img src="https://m.media-amazon.com/images/G/31/img24/boat/BAU_Bestseller-bigbait_with-number-2._CB564431390_.png" class="tablet-image">
+                <img src="https://m.media-amazon.com/images/G/31/img24hp/4th/march/2Num_Bigbets_540x700._CB580374716_.jpg" class="tablet-image">
+                <img src="https://m.media-amazon.com/images/G/31/img24hp/27th/feb/Boult_Z40._CB581780033_.jpg" class="tablet-image">
+                <img src="https://m.media-amazon.com/images/G/31/img23/CEPC/elp/hp/bigbet/4._CB572206022_.png" class="tablet-image">
+                <img src="https://m.media-amazon.com/images/G/31/HP/bigbets/elp/new/1/BAU_with-number-new_5._CB571660897_.png" class="tablet-image">
+            </div>
+        </div>  
+    </div>
+    </main>
+    <footer>
+        <div class="footer1">Back to top</div>
+        <div class="footer2">
+            <div class="col">
+                <h2>Get to Know Us</h2>
+                <div><a>About Us</a></div>
+                <div><a>Careers</a></div>
+                <div><a>Press Releases</a></div>
+                <div><a>Amazon Science</a></div>
+            </div>
+            <div class="col">
+                <h2>Connect With Us</h2>
+                <div><a>Facebook</a></div>
+                <div><a>Twitter</a></div>
+                <div><a>Instagram</a></div>
+            </div>
+            <div class="col">
+                <h2>Make Money With Us</h2>
+                <div><a>Sell on Amazon</a></div>
+                <div><a>Supply to Amazon</a></div>
+                <div><a>Become an Affiliate</a></div>
+                <div><a>Advertise Your Products</a></div>
+            </div>
+            <div class="col">
+                <h2>Lets Us Help You</h2>
+                <div><a>Your Account</a></div>
+                <div><a>Returns Centre</a></div>
+                <div><a>100% Purchase Protection</a></div>
+                <div><a>Help</a></div>
+            </div>
+        </div>
+        <div class="footer3">
+            <div class="line1">
+                <a>Conditions of Use & Sale</a>
+                <a>Privacy Notice</a>
+                <a>Internet-Based Ads</a>
+            </div>
+            <div>© 1996-2024, Amazon.com, Inc. or its affiliates</div>
+        </div>
+    </footer>
+</body>
+</html>
