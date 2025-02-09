@@ -4,9 +4,13 @@ This project is a basic clone of the Amazon website built using HTML and CSS. It
 
 Features:
 Responsive Design: The layout is fully responsive, ensuring it looks great on both desktop and mobile devices.
+
 Navigation Bar: A top navigation bar with categories, a search bar, and user account options.
+
 Product Grid: Display of product images in a grid layout, similar to the Amazon homepage.
+
 Footer: A footer with links to various pages and social media icons.
+
 Styling: The page is styled using CSS for layout, colors, and fonts to resemble Amazon's design.
 Project Structure
 
