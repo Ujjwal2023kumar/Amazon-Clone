@@ -1,5 +1,5 @@
-Amazon Clone
-Overview
+Amazon Clone Overview
+
 This project is a basic clone of the Amazon website built using HTML and CSS. It replicates the layout and design of the Amazon homepage, allowing users to browse products, view categories, and navigate through different sections of the site. This project is meant to showcase front-end development skills, including the use of HTML for structure and CSS for styling.
 
 Features:
@@ -41,6 +41,3 @@ Responsive Design: Media queries are used to make the website adapt to different
 
 Contributing
 If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
